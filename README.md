@@ -28,8 +28,8 @@ For convenience, if downloading every data set from step 1 is not possible, we h
 ├── main.py  
 ├── preprocessing.py  
 ├── regression.py  
-│── README.md  
-│── requirements.txt  
+├── README.md  
+├── requirements.txt    
 
 # Installation & Dependencies
 Install the necessary packages using:
