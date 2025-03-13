@@ -45,19 +45,11 @@ scikit-learn
 matplotlib  
   
 # Running Instructions
-**1. Train the Model**
-
-To train the model and validate performance, run:
+To train the model, validate its performance, and test the model on future yaers (2019, 2020, 2024), run:
 
 python src/main.py
 
-**2. Test the Model on Future Years (2019, 2020, 2024)**
-
-python src/main.py --test_year 2019
-
-python src/main.py --test_year 2020
-
-python src/main.py --test_year 2024
+Note that this attempts to model the data using linear regression, Ridge regression, and Lasso regression. Lambda values may be adjusted within the script. In addition to R^2, MAE, and RMSE, the script will report the significance of each feature (calculated through permutation feature significance) within every linear model produced (not Ridge nor Lasso since these had lower R^2 for the data regardless of the lambda value).
 
 # Code Organization
 
