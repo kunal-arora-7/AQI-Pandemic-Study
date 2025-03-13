@@ -19,20 +19,16 @@ For convenience, if downloading every data set from step 1 is not possible, we h
 **3. File Structure.** Place the dataset files in the following structure:
 
 /AQI_Pandemic_Study
-
-│── data/  
-│   ├── compiled_data_2000.csv  
-│   ├── compiled_data_2001.csv  
-│   ├── ...  
-│   ├── compiled_data_2018.csv
-
-│   ├── compiled_data_2019.csv  
-│   ├── compiled_data_2020.csv  
-│   ├── compiled_data_2024.csv  
-│── src/  
-│   ├── main.py  
-│   ├── preprocessing.py  
-│   ├── regression.py  
+├── compiled_data_2000.csv  
+├── compiled_data_2001.csv  
+├── ...  
+├── compiled_data_2018.csv
+├── compiled_data_2019.csv  
+├── compiled_data_2020.csv  
+├── compiled_data_2024.csv  
+├── main.py  
+├── preprocessing.py  
+├── regression.py  
 │── README.md  
 │── requirements.txt  
 
