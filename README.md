@@ -59,9 +59,9 @@ This script creates 5 validation splits (2009-2010, 2011-2012, 2013-2014, 2015-2
 
 main.py → Runs the entire pipeline (data preprocessing, model training/validation, and model testing)
 
-preprocessing.py → Data cleaning (missing value handling), robust scaling, validation splitting
+preprocessing.py → Data cleaning (missing value handling), robust scaling, Figure 1 generation
 
-regression.py → Model training, 5-fold cross-validation, feature significance, evaluation metrics
+regression.py → Model training, 5-fold cross-validation, feature significance, evaluation metrics, Figure 2 and 3 generation
 
 # Reproducibility
 In order to reproduce this study, clone this repository, download datasets and place them in /data/, install dependencies, and run src/main.py or other scripts as needed.
