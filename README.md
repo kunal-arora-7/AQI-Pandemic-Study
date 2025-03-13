@@ -25,6 +25,7 @@ For convenience, if downloading every data set from step 1 is not possible, we h
 │   ├── compiled_data_2001.csv  
 │   ├── ...  
 │   ├── compiled_data_2018.csv
+
 │   ├── compiled_data_2019.csv  
 │   ├── compiled_data_2020.csv  
 │   ├── compiled_data_2024.csv  
