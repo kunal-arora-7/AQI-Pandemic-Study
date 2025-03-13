@@ -35,13 +35,14 @@ For convenience, if downloading every data set from step 1 is not possible, we h
 Install the necessary packages using:
 
 pip install -r requirements.txt
+
 requirements.txt includes:
 
 numpy  
 pandas  
 scikit-learn  
-matplotlib
-seaborn
+matplotlib 
+seaborn 
 scipy
   
 # Running Instructions
