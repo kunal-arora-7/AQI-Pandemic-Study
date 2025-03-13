@@ -54,7 +54,7 @@ This script creates 5 validation splits (2009-2010, 2011-2012, 2013-2014, 2015-2
 
 # Code Organization
 
-main.py → Runs the entire pipeline (data preprocessing, model training/validation, and model testing)
+main.py → Runs the entire pipeline (data preprocessing, model training/validation, model testing, and all figure generation)
 
 preprocessing.py → Data cleaning (missing value handling), robust scaling, Figure 1 generation
 
