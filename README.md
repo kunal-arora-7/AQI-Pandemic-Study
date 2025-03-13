@@ -41,8 +41,8 @@ requirements.txt includes:
 numpy  
 pandas  
 scikit-learn  
-matplotlib 
-seaborn 
+matplotlib  
+seaborn  
 scipy
   
 # Running Instructions
