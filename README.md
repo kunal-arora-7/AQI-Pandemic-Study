@@ -44,7 +44,9 @@ requirements.txt includes:
 numpy  
 pandas  
 scikit-learn  
-matplotlib  
+matplotlib
+seaborn
+scipy
   
 # Running Instructions
 To train the model, validate its performance, and test the model on future yaers (2019, 2020, 2024)—all 5 times for 5-fold cross-validation, run:
