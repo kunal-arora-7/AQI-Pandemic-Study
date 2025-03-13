@@ -31,7 +31,7 @@ For convenience, if downloading every data set from step 1 is not possible, we h
 ├── README.md  
 ├── requirements.txt    
 
-# Installation & Dependencies
+# Installation
 Install the necessary packages using:
 
 pip install -r requirements.txt
