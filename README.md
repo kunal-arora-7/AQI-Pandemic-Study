@@ -61,4 +61,4 @@ preprocessing.py → Data cleaning (missing value handling), robust scaling, Fig
 regression.py → Model training, 5-fold cross-validation, feature significance, evaluation metrics, Figure 2 and 3 generation
 
 # Reproducibility
-In order to reproduce this study, clone this repository, download datasets and place them in /data/, install dependencies, and run src/main.py or other scripts as needed.
+In order to reproduce this study, clone this repository, download datasets and move them from /Preprocessed_Data/ to /AQI-Pandemic-Study/, install dependencies, and run main.py or other scripts as needed (run main.py if you have all raw data downloaded from EPA website; run regression.py if you have only the already-processed compiled_data_year.csv files downloaded).
